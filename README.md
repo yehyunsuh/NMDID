@@ -9,6 +9,7 @@ pip3 install -r requirements.txt
 ## 0. Download NMDID dataset
 ```
 brew install --cask chromedriver
+which chromedriver
 ```
 
 ## 1. Unzip NMDID dataset
