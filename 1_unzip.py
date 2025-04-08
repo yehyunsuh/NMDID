@@ -15,7 +15,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Unzip zip files')
 
-    parser.add_argument('--input', type=str, help='Input zip directory', required=True, default=None)
+    parser.add_argument('--input', type=str, help='Input zip directory', default='0_NMDID')
     parser.add_argument('--output', type=str, help='Output unzipped directory', default='1_NMDID_unzipped')
 
     args = parser.parse_args()
