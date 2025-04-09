@@ -134,7 +134,7 @@ if __name__ == '__main__':
     parser.add_argument('--download_dir', default='0_NMDID', help='Directory to save downloads')
     parser.add_argument('--download_delay', type=int, default=10, help='Delay to let download start (in seconds)')
     parser.add_argument('--firefox_loc', type=str, default='/usr/bin/firefox', help='Path to Firefox binary')
-    parser.add_argument('--max_files', type=int, default=4, help='Max number of files to download')
+    parser.add_argument('--max_files', type=int, default=500, help='Max number of files to download')
     args = parser.parse_args()
 
     main(args)
